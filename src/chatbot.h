@@ -14,6 +14,7 @@ private:
     wxBitmap *_image; // avatar image
 
     // data handles (not owned)
+    // handle in rule of 5
     GraphNode *_currentNode;
     GraphNode *_rootNode;
     ChatLogic *_chatLogic;
